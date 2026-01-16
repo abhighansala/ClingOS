@@ -1,6 +1,6 @@
 # 🖥️ ClingOS  
 <p align="center">
-  <img src="assets/logo.png" alt="Cling logo" width="200">
+  <img src="ClingOS.png" alt="Cling logo" width="200">
 </p>
 
 <h1 align="center">Cling</h1>
