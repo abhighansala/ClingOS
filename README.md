@@ -1,4 +1,9 @@
 # 🖥️ ClingOS  
+<p align="center">
+  <img src="assets/logo.png" alt="Cling logo" width="200">
+</p>
+
+<h1 align="center">Cling</h1>
 **A next-generation Linux desktop OS built in Rust — fast, fluid, cloud-connected.**
 
 ClingOS aims to deliver a polished, fluid, modern desktop experience powered by **Linux + Rust**, built around the **COSMIC compositor** with a **completely new shell** called **Cling Shell**.  
