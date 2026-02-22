@@ -46,7 +46,7 @@ ClingOS/
 │   └── xdg-desktop-portal-cling
 │
 ├── shell/                        # New UI shell layer (main dev focus)
-│   └── cling-shell/              # Rust + Iced desktop shell
+│   └── cling-shell/              # Qml desktop shell
 │       ├── src/
 │       └── assets/
 │
@@ -74,7 +74,7 @@ ClingOS/
 |---|---|
 | Kernel | Linux |
 | Compositor | `cling-comp` (Rust + Smithay) |
-| Shell UI | `cling-shell` (Rust + Iced) |
+| Shell UI | `cling-shell` (Rust + Qml) |
 | Packaging | Flatpak + custom `.clingpkg` (future) |
 | Cloud Sync | Rust + Supabase backend (future) |
 | Mobile | AOSP-based ClingOS Mobile (future) |
@@ -86,12 +86,12 @@ ClingOS/
 | Feature | Status |
 |---|---|
 | Repository Base | ✔ Started |
-| Cling Shell | ⏳ In Development |
-| Top Bar | ⏳ Planned |
-| Dock | ⏳ Planned |
-| App Launcher | ⏳ Planned |
-| Mission Control | ⏳ Planned |
-| Notification Center | ⏳ Planned |
+| Cling Shell | ✔ Completed |
+| Top Bar | ✔ Completed |
+| Dock | ✔ Completed |
+| App Launcher | ✔ Completed |
+| Cling Compositor | ⏳ In Development |
+| Notification Center | ⏳ In Development |
 | ClingCloud Sync | ❗ Future milestone |
 | Installer ISO | ❗ Future |
 
@@ -132,10 +132,8 @@ Until shell fundamentals are stable, PRs may be limited.
 
 ## Disclaimer
 
-ClingOS is **not affiliated with Pop!\_OS or System76**.  
-COSMIC components remain under their original licenses.  
-UI layers will be replaced to avoid trademark conflict.
+This is a hobby project do not ask for periodic updates | Thanks
 
 ---
 
-### 🌟 ClingOS — Clean. Fluid. Rust At The Core.
+### ClingOS — Clean. Fluid. Rust At The Core.
