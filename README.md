@@ -90,8 +90,8 @@ ClingOS/
 | Top Bar | ✔ Completed |
 | Dock | ✔ Completed |
 | App Launcher | ✔ Completed |
-| Cling Compositor | ⏳ In Development |
-| Notification Center | ⏳ In Development |
+| Cling Compositor |  ✔ Completed  |
+| Notification Center |  ✔ Completed  |
 | ClingCloud Sync | ❗ Future milestone |
 | Installer ISO | ❗ Future |
 
